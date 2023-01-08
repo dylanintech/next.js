@@ -18,7 +18,7 @@ import Script from 'next/script'
 function Home() {
   return (
     <div className="container">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+      {/* <!-- Global site tag (gtag.js) - Google Analytics -- */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
         strategy="afterInteractive"
